@@ -11,7 +11,7 @@ else:
     print("Geht net mit Cuda.. Hoffentlich is dei CPU besser wie meine :D")
 
 # Pfad zum Modell (musst anpassen)
-model_path = "C:\\Users\\rapni\\Github\\python_playarounds\\finGPT\\content\\finetuned_model"
+model_path = "Pfad zum Modell"
 
 # Basis Config
 config = AutoConfig.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True)
